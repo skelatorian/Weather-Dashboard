@@ -111,13 +111,6 @@ body {
     cursor: pointer;
   }
 
-  .row{
-    border-radius: 25px;
-    border: 2px;
-    padding: 20px;
-    width: 200px;
-    height: 150px;
-  }
   
   .forecast-container{
     padding-right: 25px;
@@ -125,6 +118,11 @@ body {
   
   .card-body{
     padding: 1px;
+    border-radius: 25px;
+    border: 2px solid;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
   }
   
   #search-card {
@@ -165,3 +163,6 @@ body {
     height: 50px;
   }
   
+  /*okay i have been trying to round the corners
+of the cards and i am not having a good time trying to
+figure it out
