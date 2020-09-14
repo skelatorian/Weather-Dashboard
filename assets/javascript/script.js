@@ -57,7 +57,7 @@ $.ajax({
   var icon5 = responseTwo.list[4].weather[0].icon;
   var icon5url = "http://openweathermap.org/img/w/" + icon5 + ".png";
 
-  // Converts the temp to Kelvin with the below formula & then sets it to 2 decimal points
+  // Converts the temp to Kelvin with the below formula & then sets it to 2 decimal points,
   var tempOneF = (responseTwo.list[4].main.temp - 273.15) * 1.8 + 32;
   var tempOne = tempOneF.toFixed(1);
   var tempTwoF = (responseTwo.list[12].main.temp - 273.15) * 1.8 + 32;
@@ -103,7 +103,7 @@ $.ajax({
 }
 
 fiveDayForecast();
-////////////////////////////
+
 
 $("button").on("click", function(event) {
   event.preventDefault();
